@@ -12,7 +12,7 @@ message UpdateUserRequest {
     optional string email = 3;
     optional string password = 4;
 }
-
+// this is for user updation
 message UpdateUserResponse {
     User user = 1;
 }
