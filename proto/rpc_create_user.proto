@@ -14,7 +14,7 @@ message CreateUserRequest {
 }
 
 message CreateUserResponse {
-    // this is for user
+    
     User user = 1;
 
 }
