@@ -8,6 +8,7 @@ option go_package = "simplebank/pb";
 
 message User {
     // user metadata 
+    // user metadata for feature-branch
     string username = 1;
     string full_name = 2;
     string email = 3;
