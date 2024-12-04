@@ -7,7 +7,11 @@ import "google/protobuf/timestamp.proto";
 option go_package = "simplebank/pb";
 
 message User {
+<<<<<<< HEAD
     // user metadata for feature-branch
+=======
+    // user metadata 
+>>>>>>> 8cb91fc (Add user metadata comment in main branch)
     string username = 1;
     string full_name = 2;
     string email = 3;
