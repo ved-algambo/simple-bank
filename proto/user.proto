@@ -7,7 +7,7 @@ import "google/protobuf/timestamp.proto";
 option go_package = "simplebank/pb";
 
 message User {
-    // user metadata
+    // metadata for user 
     string username = 1;
     string full_name = 2;
     string email = 3;
